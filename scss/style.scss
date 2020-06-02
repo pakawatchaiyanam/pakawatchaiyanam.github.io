@@ -8,8 +8,8 @@ $white: #fff;
 $black: #000000;
 $darken: #232931;
 
-$primary: #17b978;
-$secondary: #a0f669;
+$primary: #0077B6;
+$secondary: #00B4D8;
 
 
 
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5,
 			color: $white;
 		}
 	}
-	
+
 	.navbar-nav {
 		@include media-breakpoint-down(md){
 			padding-bottom: 20px;
@@ -169,7 +169,7 @@ h1, h2, h3, h4, h5,
 					color: $white;
 				}
 			}
-			
+
 			&.cta {
 				> a {
 					color: $white;
@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5,
 					}
 				}
 			}
-			
+
 				.nav-link {
 					&.active {
 					background: transparent;
@@ -212,7 +212,7 @@ h1, h2, h3, h4, h5,
 					}
 				}
 			}
-			
+
 			@include media-breakpoint-down(md){
 				&.active {
 					> a {
@@ -236,7 +236,7 @@ h1, h2, h3, h4, h5,
 			outline: none !important;
 		}
 	}
-	
+
 	&.scrolled  {
 		position: fixed;
 		right: 0;
@@ -315,7 +315,7 @@ h1, h2, h3, h4, h5,
 			transition: .3s all ease-out;
 		}
 		&.sleep {
-			transition: .3s all ease-out;	
+			transition: .3s all ease-out;
 		}
 
 		.navbar-brand {
@@ -879,7 +879,7 @@ h1, h2, h3, h4, h5,
 			&:after{
 				position: absolute;
 				bottom: -15px;
-				left: 0; 
+				left: 0;
 				right: 0;
 				content: '';
 				width: 30px;
@@ -1268,7 +1268,7 @@ textarea.form-control {
 	ul {
 		padding: 0;
 		li {
-			
+
 			&, > a {
 				display: table;
 				line-height: 1.5;
@@ -1287,7 +1287,7 @@ textarea.form-control {
 				padding-top: 2px;
 				color: rgba($white, 1);
 			}
-			
+
 		}
 	}
 }
@@ -1379,9 +1379,9 @@ textarea.form-control {
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
   -webkit-backface-visibility: hidden;
-  -webkit-transition: all 0.3s ease-out; 
-  -moz-transition: all 0.3s ease-out; 
-  -o-transition: all 0.3s ease-out; 
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
 
@@ -1392,7 +1392,7 @@ textarea.form-control {
     opacity: 0.8;
 }
 
-.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing .mfp-container,
 .mfp-with-zoom.mfp-removing.mfp-bg {
   opacity: 0;
 }
@@ -1409,7 +1409,7 @@ textarea.form-control {
 	background-color: rgba(255,255,255,0.9);
 	box-shadow: 0px 24px 64px rgba(0,0,0,0.24);
 	border-radius:16px;
-	opacity: 0; 
+	opacity: 0;
 	visibility: hidden;
 	transition: opacity .2s ease-out, visibility 0s linear .2s;
 	z-index:1000;
