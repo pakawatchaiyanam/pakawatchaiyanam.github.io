@@ -8186,7 +8186,7 @@ h1, h2, h3, h4, h5,
       padding-left: 15px;
       padding-right: 15px; } }
   .ftco-navbar-light .container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     padding: 0; }
   .ftco-navbar-light .navbar-brand {
@@ -8433,7 +8433,7 @@ h1, h2, h3, h4, h5,
           left: 0;
           bottom: 0;
           right: 0;
-          width: 1200px;
+          width: 90%;
           margin: 0 auto; } }
       @media (max-width: 1199.98px) {
         .hero-wrap .slider-text .one-forth {
