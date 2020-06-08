@@ -8791,7 +8791,7 @@ h1, h2, h3, h4, h5,
   padding: 4em 0 !important; }
   .ftco-partner .partner {
     display: block;
-    padding: 0 20px; }
+    padding: 0px; }
     @media (max-width: 991.98px) {
       .ftco-partner .partner img {
         width: 100%; } }
